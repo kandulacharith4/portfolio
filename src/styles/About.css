@@ -1,0 +1,34 @@
+.about {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #161b22; /* Matches experience section */
+  border-left: 4px solid #58a6ff; /* Blue accent line on the left */
+  border-radius: 8px;
+  color: #c9d1d9;
+  animation: fadeInUp 0.8s ease;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.gradient-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f6fc;
+}
+
+.about strong {
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

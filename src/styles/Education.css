@@ -1,0 +1,12 @@
+.education {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #161b22;
+    border-left: 4px solid #58a6ff;
+    border-radius: 8px;
+  }
+  
+  .education ul {
+    padding-left: 20px;
+  }
+  

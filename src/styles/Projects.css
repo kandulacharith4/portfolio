@@ -1,0 +1,28 @@
+.projects {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #161b22;
+  border-left: 4px solid #58a6ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0d1117;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #0d1117;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #30363d;
+  box-shadow: 0 0 8px #58a6ff33;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px #58a6ff66;
+}

@@ -1,0 +1,19 @@
+.contact-card {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #161b22;
+  border-left: 4px solid #58a6ff;
+  border-radius: 8px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+.contact-card a {
+  color: #58a6ff;
+}
+
+.contact-card a:hover {
+  color: #79c0ff;
+}
+
