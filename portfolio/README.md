@@ -24,6 +24,17 @@ Update your details in:
 - `src/components/*` – UI sections (optional tweaks)
 - `src/app/layout.tsx` – metadata/SEO
 
+### Deploy to Vercel
+
+1) Create a Vercel project and link this folder.
+2) Set Environment Variables:
+   - `RESEND_API_KEY`: your Resend API key
+   - `CONTACT_TO_EMAIL`: where contact form emails are delivered
+   - `CONTACT_FROM_EMAIL`: verified sender (e.g., `portfolio@your-domain.com`)
+3) Push to the connected branch; Vercel builds automatically.
+
+Analytics are enabled via `@vercel/analytics` and `@vercel/speed-insights`.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 Notes
